@@ -1,0 +1,97 @@
+1
+5
+1 2 3 -6 0
+
+Lexicographic strict = [0, 2]
+Lexicographic longest = [0, 2]
+Longest = [0, 2]
+
+---------------------------------------------
+
+1
+5
+1 2 3 -6 1
+
+Lexicographic strict = [0, 2]
+Lexicographic longest = [0, 2]
+Longest = [0, 2]
+
+---------------------------------------------
+
+1 
+6
+1 2 3 -6 10 -1 
+
+Lexicographic strict = [4, 4]
+Lexicographic longest = [4, 4]
+Longest = [4, 4]
+
+---------------------------------------------
+
+1
+10
+1 2 3 -6 10 1 -20 50 1 0
+
+Lexicographic strict = [7, 8]
+Lexicographic longest = [7, 9]
+Longest = [7, 9]
+
+---------------------------------------------
+
+1
+5
+1 2 -3 8 -10
+
+Lexicographic strict = [3, 3]
+Lexicographic longest = [0, 3]
+Longest = [0, 3]
+
+---------------------------------------------
+
+1
+12
+1 2 3 -6 1 1 1 1 1 1 0 0
+
+Lexicographic strict = [0, 2]
+Lexicographic longest = [0, 11]
+Longest = [0, 11]
+
+---------------------------------------------
+
+1 
+12
+1 2 3 -6 1 1 1 1 1 1 0 1
+
+Lexicographic strict = [4, 11]
+Lexicographic longest = [0, 11]
+Longest = [0, 11]
+
+---------------------------------------------
+
+1
+14
+7 -100 1 2 3 -6 1 1 1 1 1 1 0 1
+
+Lexicographic strict = [4, 11]
+Lexicographic longest = [0, 11]
+Longest = [0, 11]
+
+---------------------------------------------
+
+1
+22
+1 1 1 1 -1 1 1 1 1 -100 1 2 3 -6 1 1 1 1 1 1 0 1 
+
+Lexicographic strict = [0, 8]
+Lexicographic longest = [0, 8]
+Longest = [10, 21]
+
+---------------------------------------------
+
+1
+24
+7 -7 1 1 1 1 -1 1 1 1 1 -100 1 2 3 -6 1 1 1 1 1 1 0 1 
+
+Lexicographic strict = [0, 0]
+Lexicographic longest = [0, 10]
+Longest = [12, 23]
