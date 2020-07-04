@@ -20,7 +20,7 @@ int Solution::solve(int A, int B, int C, int D)
         m[D] = 1 ;
     else
         m[D]++ ;
-        
+
     if (m.size() != 2)
         return 0 ;
     else
@@ -34,4 +34,3 @@ int Solution::solve(int A, int B, int C, int D)
         return 1 ;
     }
 }
-
