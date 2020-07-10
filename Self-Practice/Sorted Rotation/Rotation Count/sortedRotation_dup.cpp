@@ -29,9 +29,13 @@ void sortedRotation (vector<int> &A)
 	while (r - l > 1)
 	{
 		mid = (l+r)/2 ;
-		printf ("%d, %d, %d\n", l, mid, r) ;
 		if (A[mid] == A[r])
-			r-- ;
+		{
+			if (A[r-1] <= A[r])
+				r-- ;
+			else
+				break ;
+		}
 		else if (A[mid] >= A[l])
 		{
 			if (A[mid+1] >= A[mid])
