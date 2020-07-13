@@ -24,7 +24,10 @@ void largestpf (long long n)
         i += 2 ;
     }
     
-    cout << n << "\n" ;
+    if (n != 1)
+        cout << n << "\n" ;
+    else
+        cout << i-2 << "\n" ;
 }
 
 int main() 

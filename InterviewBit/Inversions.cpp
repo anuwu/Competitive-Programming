@@ -15,7 +15,7 @@ int merge (vector<int> &C, int low, int mid, int high)
         {
             C[k] = B[j] ;
             
-            inv += (B.size() - j) ;
+            inv += (A.size() - i) ;
             j++ ;
         }
         else
