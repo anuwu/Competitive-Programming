@@ -33,6 +33,40 @@ int main ()
 	ios_base::sync_with_stdio (false) ;
 	cin.tie (NULL) ;
 
+	int t, expo ;
+	lli n, s1, s2 ;
+	cin >> t ;
+	do
+	{
+		cin >> n ;
+		if (n <= 4)
+		{
+			int ans ;
+			switch (n)
+			{
+				case 1 : 
+					ans = -1 ;
+					break ;
+				case 2 :
+					ans = -3;
+					break ;
+				case 3 :
+					ans = 0 ;
+					break ;
+				case 4 :
+					ans = -4 ;
+					break ;
+			}
+			cout << ans << "\n" ;
+			continue ;
+		}
+
+		expo = log2 (n) ;
+		s1 = (n*(n+1))/2 ;
+		s2 = (lli)pow (2, expo+1) - 1 ;
+
+		cout << s1 - 2*s2 << "\n" ;
+	} while (--t) ;
 
 	return 0 ;
 }
